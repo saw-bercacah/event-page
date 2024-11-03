@@ -1,0 +1,52 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+    gap: 6em;
+    background-image:url(./Screenshot\ 2024-11-03\ 205843.png);
+    background-size: 100%;
+   
+}
+h1,p ,h2{
+font-family: serif;
+color:#4E342E}
+h1,h2{font-weight: bold;
+font-size: 1.7rem;}
+
+.dates{
+   
+    display: inline-flex;
+    flex-direction: column;
+    border: #FFC107 solid 2px ;
+    outline: #6B8E23 solid 4px;
+    outline-offset: 20px;
+    gap:1.5em;
+    justify-content: center;
+    height: 80vh;
+    width:500px;
+    background-color:#FFF8E1;
+    padding:10px;
+    border-radius: 10%;
+
+}
+.about{
+    display:inline-flex;
+    flex-direction: column;
+    width:600px;
+    border: #FFC107 solid 2px;
+    outline: #6B8E23 solid 4px;
+    outline-offset: 20px;
+    justify-content: center;
+    height: 80vh;
+    gap: 1.5em;
+    text-align: center;
+    background-color: #FFF8E1;
+    border-radius: 10%;
+    padding:10px;
+}
+
+
+
+
